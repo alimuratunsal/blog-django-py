@@ -5,7 +5,7 @@ pipeline {
     }
   }
   environment {
-    appName = 'result'
+    appName = 'blogproject-from-github'
   }
 
   options {
