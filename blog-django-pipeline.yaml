@@ -1,0 +1,9 @@
+kind: "BuildConfig"
+apiVersion: "v1"
+metadata:
+  name: "blog-django-py-pipeline"
+spec:
+  strategy:
+    jenkinsPipelineStrategy:
+      jenkinsfile: https://github.com/alimuratunsal/blog-django-py/blob/master/Jenkinsfile
+    type: JenkinsPipeline
