@@ -5,5 +5,5 @@ metadata:
 spec:
   strategy:
     jenkinsPipelineStrategy:
-      jenkinsfile: https://github.com/alimuratunsal/blog-django-py/blob/master/Jenkinsfile
+      jenkinsfile: https://raw.githubusercontent.com/alimuratunsal/blog-django-py/master/Jenkinsfile
     type: JenkinsPipeline
