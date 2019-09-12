@@ -5,7 +5,7 @@ pipeline {
     }
   }
   environment {
-    appName = 'blogproject-from-github'
+    appName = 'blog-django-py'
   }
 
   options {
